@@ -1,0 +1,14 @@
+[project]
+name = "mcp-trading"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "colorama>=0.4.6",
+    "fastmcp>=3.1.1",
+    "litellm>=1.83.0",
+    "mcp[cli]>=1.26.0",
+    "smolagents[mcp]>=1.24.0",
+    "yfinance>=1.2.0",
+]
